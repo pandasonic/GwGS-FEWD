@@ -1,0 +1,45 @@
+.card {
+	width: 300px;
+	margin: 10px 20px 20px 5px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #c5c8cc;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 15px;
+	box-shadow: 10px 10px 5px 0px #c5c8cc;
+}
+
+.content {
+	border-style: solid;
+	border-width: 2px;
+	border-color: #c5c8cc;
+	margin-top: 15px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 15px;
+}
+
+.title {
+	font-size: 25px;
+}
+
+.interesting {
+	font-style: italic;
+}
+
+.list {
+	list-style-type: none;
+	padding: 0;
+}
+
+.term {
+	font-weight: bold;
+	float: left;
+	clear: left;
+}
+
+.term::after {
+    content: ":";
+    padding-right: 5px;
+}
